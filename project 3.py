@@ -93,41 +93,10 @@ if choose_option =="h" or choose_option =="a" or choose_option =="x":
                 while pick_index < 0 or pick_index >= len(string_1):  # check if index is out of range
                     print("Insert index out of range\n")
                     pick_index = int(input(":~Before what index ~:"))  # will ask again if the index is out of range
-                #will add the "-" to the string where before that index
+                
+                #will add the "-" to the string where before that index at what index (starting at 0)
 
                 break
-
-
-"""
-for example: 
-:~Input String 1 ~:aaatttccc
-:~Input String 2 ~:aatttcccc
-:~What do you want to do:
- a (add indel)
- d (delete indel)
- s (score)
- q (quit) ~:s
-Matches: 7 Mismatches: 2
-String 1: aaAttTccc
-String 2: aaTttCccc
-:~What do you want to do:
- a (add indel)
- d (delete indel)
- s (score)
- q (quit) ~:a
-:~Work on which string (1 or 2) ~:2
-:~Before what index ~:2
-:~What do you want to do:
- a (add indel)
- d (delete indel)
- s (score)
- q (quit) ~:s
-Matches: 8 Mismatches: 2
-String 1: aaAtttcccString 2: aa-tttcccC
-                    """
-
-
-
 
 
 
